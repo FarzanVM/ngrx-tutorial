@@ -1,0 +1,9 @@
+<h1>Customer list component that subscribed to a selector for any changes in state</h1>
+<!-- using async to subscribe and unsubscribe automatically -->
+<ng-container *ngFor="let customer of customers$ | async"> 
+    <h3>{{customer.name}}</h3>
+    <h3>{{customer.phone}}</h3>
+    <h3>{{customer.address}}</h3>
+    <h3>{{customer.id}}</h3>
+    
+</ng-container>

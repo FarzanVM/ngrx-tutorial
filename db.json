@@ -1,0 +1,16 @@
+{
+  "customers":[
+      {
+          "name":"farzan",
+          "phone":"9876667532",
+          "address":"valeppilly",
+          "id":1
+      },
+      {
+          "name":"steve",
+          "phone":"9123543232",
+          "address":"roger house",
+          "id":2
+      }
+  ]
+}
